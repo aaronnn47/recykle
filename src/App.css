@@ -41,6 +41,15 @@
   opacity: .70;
 }
 
+.quote{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Charm', cursive;
+
+}
+
 @media(min-width: 310px){
   .nav-links{
     width: 90%;
