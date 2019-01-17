@@ -19,6 +19,7 @@
     margin: 50px;
     width: 60%;
     font-size: 90%;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .sustainability{
@@ -32,9 +33,11 @@
     .blog-first-post > p{
         margin: 30px;
         width: 60%;
-        font-size: 70%;
+        font-size: 80%;
     }
     .blog-first-post > h1{
         margin-top: 30px;
+        font-family: 'Poppins', sans-serif;
+
     }
 }
