@@ -5,3 +5,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media(min-width: 300px){
+    .shop-body > h1 {
+        font-size: 80%;
+    }
+}
