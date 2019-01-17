@@ -1,3 +1,7 @@
+.blog-main{
+    width: 100%;
+    height: 100%;
+}
 .blog-first-post{
     width: 100%;
     height: 100%;
@@ -19,4 +23,18 @@
 
 .sustainability{
     font-size: 120%;
+}
+
+@media(min-width:300px){
+    .sustainability{
+        font-size: 80%;
+    }
+    .blog-first-post > p{
+        margin: 30px;
+        width: 60%;
+        font-size: 70%;
+    }
+    .blog-first-post > h1{
+        margin-top: 30px;
+    }
 }

@@ -16,3 +16,15 @@
     height: 30%;
     margin: 50px;
 }
+
+@media(min-width: 300px){
+    .about-main > img {
+        width: 75%;
+        height: 75%;
+        margin: 50px;
+    }
+    .about-main > h1{
+        margin: 20px;
+        font-size: 100%;
+    }
+}

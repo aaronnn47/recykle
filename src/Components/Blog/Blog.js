@@ -4,7 +4,7 @@ import './Blog.css'
 class Blog extends Component{
     render(){
         return(
-            <div>
+            <div className='blog-main'>
                 <div className='blog-first-post'>
                     <h1>What is PET?</h1>
                     <p>Let’s start by learning what PET is. This is an abbreviation for the much longer (much less fun) term, polyethylene terephthalate; a polymer of ethylene glycol and terephthalic acid. Clearer terms? PET is the most common type of plastic resin. To create virgin PET, producers extract crude oil and natural gas from the Earth, then process and heat it to form a molten liquid. They spin this liquid into fibers to create polyester fabric, or they mold and solidify it into PET plastic containers.
