@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:rgb(10, 10, 10); 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
 .App {
   width:100vw;
   height: 100vh;
