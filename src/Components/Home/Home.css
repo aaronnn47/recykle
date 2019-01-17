@@ -61,12 +61,11 @@ a:hover
   font-family: 'Charm', cursive;
 }
 
-@media(min-width: 310px){
+@media(min-width: 300px){
   .nav-links{
     width: 90%;
     font-size: 90%;
   }
-
   .home-body > img{
     width: 80%;
     height: 90%;

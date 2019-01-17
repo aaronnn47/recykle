@@ -7,8 +7,16 @@ class About extends Component{
         return(
             <div className='about-main'>
                 <h1>It's Simple</h1>
-                <img src={photo} alt=''/>
-                <h1>Give Back What You Put In!</h1>
+
+                <form action="https://formspree.io/iamaaronkim@gmail.com" method="POST" className='form'>
+                    <h1>Join Our Mailing List!</h1>
+                    <h3>Name</h3>
+                    <input type="text" name="name" className='comment'/>
+                    <h1>Email</h1>
+                    <input type="email" name="_replyto" className='email-form'/>
+                    <input type="submit" value="Send"/>
+                </form>
+
             </div>
         )
     }

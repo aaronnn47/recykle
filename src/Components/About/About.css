@@ -17,12 +17,80 @@
     margin: 50px;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.comment{
+    width: 100%;
+    height: 200%;
+    margin: 20px;
+    border-radius: 2%;
+}
+
+.email-form{
+    margin: 20px;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.form > h1{
+    font-size: 200%;
+}
+
+.form > h3{
+    margin: 20px;
+}
+
 @media(min-width: 300px){
-    .about-main > img {
-        width: 75%;
-        height: 75%;
-        margin: 50px;
+    .about-main > h1{
+        margin: 20px;
+        font-size: 150%;
     }
+
+    .form > h1{
+        font-size: 70%;
+    }
+}
+
+@media(min-width: 600px){
+
+    .about-main > h1{
+        margin: 20px;
+        font-size: 100%;
+    }
+}
+
+@media(min-width: 800px){
+
+    .about-main > h1{
+        margin: 20px;
+        font-size: 100%;
+    }
+}
+
+@media(min-width: 1000px){
+
+    .about-main > h1{
+        margin: 20px;
+        font-size: 100%;
+    }
+}
+
+@media(min-width: 1200px){
+
+    .about-main > h1{
+        margin: 20px;
+        font-size: 100%;
+    }
+}
+
+@media(min-width: 1500px){
+
     .about-main > h1{
         margin: 20px;
         font-size: 100%;
