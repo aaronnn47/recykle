@@ -42,12 +42,11 @@
 }
 
 .quote{
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 20%;
   margin: 0 auto;
   margin-top: 50px;
   font-family: 'Charm', cursive;
-
 }
 
 @media(min-width: 310px){
@@ -74,6 +73,10 @@
     height: 80%;
     opacity: .60;
   }
+
+  .quote{
+    width: 70%;
+  }
 }
 
 @media(min-width: 600px){
@@ -86,6 +89,9 @@
     width: 70%;
     height: 80%;
     opacity: .60;
+  }
+  .quote{
+    width: 60%;
   }
 }
 
@@ -100,6 +106,10 @@
     height: 60%;
     opacity: .60;
   }
+
+  .quote{
+    width: 50%;
+  }
 }
 
 @media(min-width: 1100px){
@@ -112,5 +122,9 @@
     width: 50%;
     height: 50%;
     opacity: .60;
+  }
+
+  .quote{
+    width: 40%;
   }
 }
