@@ -25,10 +25,6 @@ class Home extends Component {
           <img src={image} alt=''/>
         </div>
 
-        <div className="quote">
-          <p>Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine. ― Roy T. Bennett</p>
-        </div>
-
       </div>
     );
   }
