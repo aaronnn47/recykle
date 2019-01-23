@@ -90,12 +90,13 @@ a:hover
 }
 
 .white-shirt{
-  height: 40%;
+  height: 50%;
   width: 100%;
   display : flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 40px;
 }
 
 .white-shirt > h3{
@@ -104,6 +105,11 @@ a:hover
 
 .white-shirt > p {
   margin: 5px;
+}
+
+.white-shirt > img{
+  height: 80%;
+  width: 80%;
 }
 
 @media(min-width: 300px){
