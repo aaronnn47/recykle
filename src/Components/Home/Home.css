@@ -87,7 +87,7 @@ a:hover
 }
 
 .white-shirt{
-  height: 30%;
+  height: 40%;
   width: 30%;
   display : flex;
   flex-direction: column;
@@ -113,6 +113,19 @@ a:hover
     height: 90%;
     opacity: .60;
   }
+  .featured-images{
+    width: 100%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .white-shirt > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 @media(min-width: 400px){
@@ -130,6 +143,11 @@ a:hover
   .quote{
     width: 70%;
   }
+
+  .white-shirt > img{
+    width: 95%;
+    height: 95%;
+  }
 }
 
 @media(min-width: 600px){
@@ -146,6 +164,19 @@ a:hover
   .quote{
     width: 60%;
   }
+/* 
+  .featured-product{
+    height: 80%;
+    width: 100%;
+  }
+
+  .featured-images {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+  } */
+
 }
 
 @media(min-width: 900px){
@@ -162,6 +193,19 @@ a:hover
 
   .quote{
     width: 50%;
+  }
+
+  .featured-product{
+    height: 100%;
+    width: 100%;
+  }
+
+  .featured-images{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

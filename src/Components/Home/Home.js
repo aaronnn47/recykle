@@ -33,7 +33,7 @@ class Home extends Component {
 
           <div className='featured-images'>
             <div className='white-shirt'>
-              {/* <h3>White Shirt</h3> */}
+              <h3>White Shirt</h3>
               <img src={mens} alt=''/>
               {/* <p>Descriptions</p>
               <p>Descriptions</p>
@@ -42,7 +42,7 @@ class Home extends Component {
             </div>
 
             <div className='white-shirt'>
-              {/* <h3>Black Hoodie</h3> */}
+              <h3>Black Hoodie</h3>
               <img src={hoodie} alt=''/>
               {/* <p>Descriptions</p>
               <p>Descriptions</p>
@@ -51,7 +51,7 @@ class Home extends Component {
             </div>
 
             <div className='white-shirt'>
-              {/* <h3>Womens Shirt</h3> */}
+              <h3>Womens Shirt</h3>
               <img src={womens} alt=''/>
               {/* <p>Descriptions</p>
               <p>Descriptions</p>
