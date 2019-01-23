@@ -62,12 +62,15 @@ a:hover
 }
 
 .featured-product > h3{
-  height: 10%;
+  height: 20%;
   width: 100%;
   display : flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  align-items: center;
+  /* background: rgb(215, 236, 215); */
+  font-size: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .featured-images{
@@ -88,7 +91,7 @@ a:hover
 
 .white-shirt{
   height: 40%;
-  width: 30%;
+  width: 100%;
   display : flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +99,7 @@ a:hover
 }
 
 .white-shirt > h3{
-  margin: 20px;
+  margin: 0 auto;
 }
 
 .white-shirt > p {
@@ -120,11 +123,17 @@ a:hover
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background: rgb(204, 241, 204); */
   }
 
   .white-shirt > img{
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .white-shirt > h3{
+    width: 100%;
+    height: 20%;
   }
 }
 
@@ -166,7 +175,7 @@ a:hover
   }
   .featured-images{
     width: 100%;
-    height: 40%;
+    height: 30%;
     background: rgb(185, 247, 185);
     margin: 0 0;
     display: flex;

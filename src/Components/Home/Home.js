@@ -35,28 +35,29 @@ class Home extends Component {
             <div className='white-shirt'>
               <h3>White Shirt</h3>
               <img src={mens} alt=''/>
-              {/* <p>Descriptions</p>
-              <p>Descriptions</p>
-              <p>Descriptions</p>
-              <p>Descriptions</p> */}
+              <p>Made in the USA</p>
+              <p>100% Organic</p>
+              <p>30/1 combed ring spun</p>
+              <p>Adult</p>
+              <p>Product coming soon</p>
             </div>
 
             <div className='white-shirt'>
               <h3>Black Hoodie</h3>
               <img src={hoodie} alt=''/>
-              {/* <p>Descriptions</p>
-              <p>Descriptions</p>
-              <p>Descriptions</p>
-              <p>Descriptions</p> */}
+              <p>Made in the USA</p>
+              <p>50/50 blend cotton / polyester</p>
+              <p>Adult</p>
+              <p>Product coming soon</p>
             </div>
 
             <div className='white-shirt'>
               <h3>Womens Shirt</h3>
               <img src={womens} alt=''/>
-              {/* <p>Descriptions</p>
-              <p>Descriptions</p>
-              <p>Descriptions</p>
-              <p>Descriptions</p> */}
+              <p>Made in the USA</p>
+              <p>50 / 50 blend cotton/polyester</p>
+              <p>Adult</p>
+              <p>Products coming soon</p>
             </div>
 
           </div>
