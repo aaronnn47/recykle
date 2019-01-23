@@ -96,7 +96,7 @@ a:hover
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 40px; */
+  margin-top: 80px;
 }
 
 .white-shirt > h3{
