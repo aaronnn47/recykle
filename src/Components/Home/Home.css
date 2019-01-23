@@ -183,6 +183,11 @@ a:hover
     flex-wrap: wrap
   }
 
+  .white-shirt{
+    height: 40%;
+    width: 30%;
+  }
+
   .white-shirt > img{
     width: 80%;
     height: 80%;
