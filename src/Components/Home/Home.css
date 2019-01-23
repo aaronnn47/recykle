@@ -61,6 +61,48 @@ a:hover
   font-family: 'Charm', cursive;
 }
 
+.featured-product > h3{
+  height: 10%;
+  width: 100%;
+  display : flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.featured-images{
+  height: 40%;
+  width: 100%;
+  display : flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-description{
+  width: 100%;
+  height: 40%;
+  display: grid;
+  
+}
+
+.white-shirt{
+  height: 30%;
+  width: 30%;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-shirt > h3{
+  margin: 20px;
+}
+
+.white-shirt > p {
+  margin: 5px;
+}
+
 @media(min-width: 300px){
   .nav-links{
     width: 90%;
