@@ -18,7 +18,7 @@ class Home extends Component {
             <Link to='/'>Home</Link>
             <Link to='/shop'>Shop</Link>
             <Link to='/blog'>Blog</Link>
-            <Link to='/about'>About</Link>
+            <Link to='/about'>New Releases</Link>
           </div>
         
         <div className='home-body'>

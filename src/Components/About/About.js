@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import photo from '../../images/plastic_to_fabric.png'
 import './About.css'
 
 class About extends Component{
