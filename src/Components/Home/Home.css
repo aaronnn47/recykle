@@ -182,7 +182,6 @@ a:hover
   .featured-images{
     width: 100%;
     height: 30%;
-    /* background: rgb(185, 247, 185); */
     margin: 0 0;
     display: flex;
     flex-direction: row;
@@ -231,11 +230,15 @@ a:hover
   }
 
   .featured-images{
-    height: 100%;
+    height: 90%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .featured-product > h3{
+    font-size: 350%;
   }
 }
 
