@@ -232,13 +232,30 @@ a:hover
   .featured-images{
     height: 90%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .featured-product > h3{
-    font-size: 350%;
+    font-size: 200%;
+  }
+
+  .white-shirt {
+    margin-top: 0px;
+    margin-bottom:50px;
+    height: 100%;
+    width: 30%;
+  }
+  
+  .white-shirt > img {
+    width: 100%;
+    height: 45%;
+  }
+
+  .white-shirt > h3{
+    width: 100%;
+    height: 10%;
+    display : flex;
+    justify-content: center;
+
   }
 }
 
