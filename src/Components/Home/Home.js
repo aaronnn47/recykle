@@ -36,7 +36,7 @@ class Home extends Component {
               <h3>White Shirt</h3>
               <img src={mens} alt=''/>
               <p>Made in the USA!</p>
-              <p>100% Organic</p>
+              {/* <p>100% Organic</p> */}
               <p>30/1 combed ring spun</p>
               <p>Adult</p>
               <p>Product coming soon</p>
