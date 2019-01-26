@@ -16,7 +16,7 @@ a:hover
    cursor:pointer;  
 }
 
-.App {
+.home-main {
   width:100vw;
   height: 100vh;
 }
@@ -25,253 +25,121 @@ a:hover
   width: 100%;
   height: 10%;
   background: rgb(237, 243, 237);
-}
-
-.title{
-  width:50%;
-  height:100%;
   display:flex;
   align-items: center;
   padding-left: 10%;
 }
 
-.nav-links{
-  margin: 0 auto;
-  width:50%;
-  height:20%;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.home-body{
-  display: flex;
-  justify-content: center;
-}
-
-.home-body > img{
-  opacity: .70;
-}
-
-.quote{
-  width: 75%;
-  height: 20%;
-  margin: 0 auto;
-  margin-top: 50px;
-  font-family: 'Charm', cursive;
-}
-
-.featured-product > h3{
-  height: 20%;
-  width: 100%;
-  display : flex;
-  justify-content: center;
-  align-items: center;
-  /* background: rgb(215, 236, 215); */
-  font-size: 100%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.featured-images{
-  height: 40%;
-  width: 100%;
-  display : flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.product-description{
-  width: 100%;
-  height: 40%;
-  display: grid;
-  
-}
-
-.white-shirt{
-  height: 50%;
-  width: 100%;
-  display : flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-}
-
-.white-shirt > h3{
-  width: 40%;
-}
-
-.white-shirt > p {
-  margin: 5px;
-}
-
-.white-shirt > img{
-  height: 80%;
-  width: 80%;
-}
-
 @media(min-width: 300px){
   .nav-links{
-    width: 90%;
-    font-size: 90%;
+    margin: 0 auto;
+    width: 60%;
+    height: 10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
   }
+
+  .home-body{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .home-body > img{
     width: 80%;
-    height: 90%;
-    opacity: .60;
+    height: 80%;
+    opacity: .70;
   }
-  .featured-images{
+
+  .featured-header{
     width: 100%;
-    height: 120%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-product{
+    width: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: rgb(204, 241, 204); */
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
-  .white-shirt > img{
+  .home-product > img{
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .white-shirt > h3{
-    width: 40%;
-    height: 20%;
-  }
-}
-
-@media(min-width: 400px){
-  .nav-links{
-    width: 80%;
-    font-size: 90%;
-  }
-
-  .home-body > img{
-    width: 80%;
-    height: 80%;
-    opacity: .60;
-  }
-
-  .quote{
-    width: 70%;
-  }
-
-  .white-shirt > img{
-    width: 95%;
-    height: 95%;
+  .home-product > p{
+    font-size: 80%;
   }
 }
 
 @media(min-width: 600px){
-  .nav-links{
-    width: 70%;
-    font-size: 90%;
-  }
 
-  .home-body > img{
-    width: 70%;
-    height: 80%;
-    opacity: .60;
-  }
-  .quote{
-    width: 60%;
-  }
-  .featured-images{
+  .home-body {
     width: 100%;
-    height: 30%;
-    margin: 0 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap
+    height: 70%;
   }
 
-  .white-shirt{
-    height: 40%;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-
-  .white-shirt > h3{
-    width: 40%;
-  }
-
-  .white-shirt > img{
-    width: 80%;
-    height: 80%;
+  .home-product > img{
+    width: 60%;
+    height: 60%;
   }
 
 }
 
-@media(min-width: 900px){
-  .nav-links{
-    width: 60%;
-    font-size: 90%;
-  }
-
+@media(min-width: 700px){
   .home-body > img{
     width: 60%;
-    height: 60%;
-    opacity: .60;
   }
 
-  .quote{
-    width: 50%;
-  }
-
-  .featured-product{
-    height: 100%;
+  .home-product-body{
     width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .featured-images{
-    height: 90%;
+  .home-product {
+    width: 33%;
+    height: 50%;
+  }
+
+  .home-product > img{
     width: 100%;
-  }
-
-  .featured-product > h3{
-    font-size: 200%;
-  }
-
-  .white-shirt {
-    margin-top: 0px;
-    margin-bottom:50px;
-    height: 100%;
-    width: 30%;
-  }
-  
-  .white-shirt > img {
-    width: 100%;
-    height: 45%;
-  }
-
-  .white-shirt > h3{
-    width: 100%;
-    height: 10%;
-    display : flex;
-    justify-content: center;
-
+    height: 80%;
   }
 }
 
 @media(min-width: 1100px){
-  .nav-links{
-    width: 50%;
-    font-size: 90%;
+  .home-product {
+    width: 33%;
+    height: 40%;
   }
 
-  .home-body > img{
-    width: 50%;
-    height: 50%;
-    opacity: .60;
+  .home-product > img {
+    height: 70%;
+    width: 100%;
+  }
+}
+
+@media(min-width: 1500px){
+  .home-product {
+    width: 33%;
+    height: 30%;
   }
 
-  .quote{
-    width: 40%;
+  .home-product > img{
+    width: 100%;
+    height: 60%;
   }
 }
