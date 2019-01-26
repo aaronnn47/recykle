@@ -33,7 +33,7 @@ a:hover
 @media(min-width: 300px){
   .nav-links{
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
     height: 10%;
     display:flex;
     justify-content: space-around;
@@ -84,6 +84,9 @@ a:hover
 }
 
 @media(min-width: 600px){
+  .nav-links{
+    width: 80%;
+  }
 
   .home-body {
     width: 100%;
@@ -98,6 +101,10 @@ a:hover
 }
 
 @media(min-width: 700px){
+  .nav-links{
+    width: 70%;
+  }
+
   .home-body > img{
     width: 60%;
   }
@@ -121,6 +128,9 @@ a:hover
 }
 
 @media(min-width: 1100px){
+  .nav-links{
+    width: 60%;
+  }
   .home-product {
     width: 33%;
     height: 40%;
@@ -133,6 +143,9 @@ a:hover
 }
 
 @media(min-width: 1500px){
+  .nav-links{
+    width: 50%;
+  }
   .home-product {
     width: 33%;
     height: 30%;
