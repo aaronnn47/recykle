@@ -11,6 +11,7 @@ class Shop extends Component{
     render(){
         return(
             <div className='shop-main'>
+            
                 <div className='shop-header'>
                 <h1>Products</h1>
                 </div>

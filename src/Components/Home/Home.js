@@ -20,8 +20,8 @@ class Home extends Component {
           <div className='nav-links'>
             <Link to='/'>Home</Link>
             <Link to='/shop'>Shop</Link>
-            <Link to='/blog'>Blog</Link>
-            <Link to='/about'>New Releases</Link>
+            <Link to='/blog'>About</Link>
+            <Link to='/about'>Contact</Link>
           </div>
         
         <div className='home-body'>
