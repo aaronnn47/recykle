@@ -10,7 +10,12 @@ import Wrockhand from '../../images/recykle_rockhand.png'
 class Shop extends Component{
     render(){
         return(
-            <div className='shop-body'>
+            <div className='shop-main'>
+                <div className='shop-header'>
+                <h1>Products</h1>
+                </div>
+
+                <div className='shop-body'>
                 <div className='shop-products'>
                     <img src={shirt} alt=''/>
                     <p>New Release</p>
@@ -44,6 +49,7 @@ class Shop extends Component{
                     <p>New Release</p>
                     <p>100% cotton</p>
                     <p>Pricing coming soon</p>
+                </div>
                 </div>
             </div>
         )
