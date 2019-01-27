@@ -26,11 +26,9 @@ class Home extends Component {
            <img src={image} alt=''/>
           </div>
 
-          <div className='featured-product'>
-
-            <div className='featured-header'>
-              <h3>Featured Products</h3>
-            </div>
+          <div className='featured-header'>
+            <h3>Featured Products</h3>
+          </div>
 
           <div className='home-product-body'>
 
@@ -62,7 +60,6 @@ class Home extends Component {
               <p>Products coming soon</p>
             </div>
 
-          </div>
         </div>
 
       </div>
