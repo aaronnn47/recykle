@@ -20,12 +20,14 @@ class Shop extends Component{
                 <h1>Products</h1>
                 </div>
 
-                <div className='shop-body'>
+            <div className='shop-body'>
+
                 <div className='shop-products'>
                     <img src={shirt} alt=''/>
                     <p>New Release</p>
                     <p>100% cotton</p>
                     <p>Pricing coming soon</p>
+                    <button>Add to car</button>
                 </div>
 
                 <div className='shop-products'>
