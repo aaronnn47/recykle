@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './Home.css';
 import image from '../../images/plastic_ocean.jpg'
 import {Link} from 'react-router-dom'
-import mens from '../../images/mens_white.png'
-import hoodie from '../../images/black_hoodie.png'
-import womens from '../../images/womens_whites.png'
+import mens from '../../images/recykle_plain.png'
+import hoodie from '../../images/recykle_blackhoodie.png'
+import womens from '../../images/recykle_women_plain.png'
 
 class Home extends Component {
   render() {
@@ -36,8 +36,7 @@ class Home extends Component {
               <h3>White Shirt</h3>
               <img src={mens} alt=''/>
               <p>Made in the USA!</p>
-              {/* <p>100% Organic</p> */}
-              <p>30/1 combed ring spun</p>
+              <p>50/50 cotton polyester</p>
               <p>Adult</p>
               <p>Product coming soon</p>
             </div>
