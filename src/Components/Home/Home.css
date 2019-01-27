@@ -116,34 +116,19 @@ a:hover
 
   .home-product-body{
     width: 100%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-wrap: wrap;
   }
 
   .home-product {
-    height: 80%;
+    height: 90%;
     width: 33%;
   }
 
   .home-product > img{
     width: 100%;
-    height: 50%;
+    height: 60%;
   }
 }
-
-@media(min-width: 1100px){
-  .nav-links{
-    width: 60%;
-  }
-
-  .home-body > img{
-    width: 55%;
-  }
-
-  .home-product{
-    height: 80%;
-  }
-}
-
 
