@@ -13,6 +13,7 @@ class Home extends Component {
         
         <div className="header">
             <h1>Recykle.</h1>
+            {/* <div>Cart</div> */}
         </div>
 
           <div className='nav-links'>
