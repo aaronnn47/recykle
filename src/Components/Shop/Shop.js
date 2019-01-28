@@ -9,6 +9,8 @@ import Wtank from '../../images/recykle_blacktank.png'
 import Wsweater from '../../images/recykle_Wsweater.png'
 import Mcamo from '../../images/recykle_camo.png'
 import Mbeanie from '../../images/recykle_beanie.png'
+import {connect} from 'react-redux'
+import {addRecykleBrand} from '../../Redux/reducer'
 
 
 class Shop extends Component{
@@ -27,7 +29,10 @@ class Shop extends Component{
                     <p>New Release</p>
                     <p>100% cotton</p>
                     <p>Pricing coming soon</p>
-                    <button>Add to car</button>
+                    {/* <button
+                    onClick={()=>this.props.addRecykleBrand(12.99)}
+                    >Add to cart</button>
+                    {this.props.cartTotal} */}
                 </div>
 
                 <div className='shop-products'>
@@ -87,9 +92,16 @@ class Shop extends Component{
                 </div>
 
                 </div>
+
             </div>
         )
     }
 }
 
-export default Shop
+function mapStateToProps(state){
+    return{
+        total: state.cartTotal,
+    }
+}
+
+export default connect(mapStateToProps,{addRecykleBrand})(Shop)
